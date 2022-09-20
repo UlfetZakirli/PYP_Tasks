@@ -1,0 +1,30 @@
+.navbar{
+    .container{
+        color: #fff;
+        background-color: #403443;
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                margin-left: 39px;
+                font-size: 20px;
+                // padding: 30px;
+                a{
+                  text-decoration: none;
+                  color: #fff;
+                }
+              img{
+                width: 80px;
+                border-radius: 30%;
+                margin-left: -60px;
+                margin-top: 5px;
+              }
+              &.page{
+                margin-top: 20px;
+               
+              }
+            }
+        }
+    }
+       
+}
